@@ -1,7 +1,4 @@
-# Quiztory
-Simple Quiz Application
-
-## Tutorial
+# Tutorial
 
 ### 1. Opening the Project
  - You will need an [Apple Developer Account](https://developer.apple.com) and [XCode](https://apps.apple.com/ca/app/xcode/id497799835) downloaded
