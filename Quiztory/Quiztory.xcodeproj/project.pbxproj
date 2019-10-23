@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249435F720BF9382005A1E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249435F620BF9382005A1E62 /* AppDelegate.swift */; };
+		249435F920BF9382005A1E62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249435F820BF9382005A1E62 /* ViewController.swift */; };
+		249435FC20BF9382005A1E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249435FA20BF9382005A1E62 /* Main.storyboard */; };
+		249435FE20BF9383005A1E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249435FD20BF9383005A1E62 /* Assets.xcassets */; };
+		2494360120BF9383005A1E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249435FF20BF9383005A1E62 /* LaunchScreen.storyboard */; };
+		2494360B20C0EDE2005A1E62 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2494360A20C0EDE2005A1E62 /* QuizViewController.swift */; };
+		2494360D20C225F6005A1E62 /* LeaderboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2494360C20C225F6005A1E62 /* LeaderboardController.swift */; };
+		78DC2E68FC00F4E3ACA9ED06 /* Pods_Quiztory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A49A2A184EF544FFF73AED9 /* Pods_Quiztory.framework */; };
+		F472A82F20C35FAD003180B5 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472A82E20C35FAD003180B5 /* GameKit.framework */; };
+		F4989FC020C4D18E00C8B5ED /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4989FBF20C4D18E00C8B5ED /* SwiftyJSON.framework */; };
+		F4BFC83220C18AF00018390F /* QuestionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFC83120C18AF00018390F /* QuestionList.swift */; };
+		F4BFC83420C1C60B0018390F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BFC83320C1C60B0018390F /* Alamofire.framework */; };
+		F4BFC83820C1C6E20018390F /* HighscoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFC83720C1C6E20018390F /* HighscoreController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ED4799A6C3F31457E232199 /* Pods-Quiztory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiztory.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quiztory/Pods-Quiztory.release.xcconfig"; sourceTree = "<group>"; };
+		249435F320BF9382005A1E62 /* Quiztory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiztory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		249435F620BF9382005A1E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		249435F820BF9382005A1E62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		249435FB20BF9382005A1E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		249435FD20BF9383005A1E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2494360020BF9383005A1E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2494360220BF9383005A1E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2494360A20C0EDE2005A1E62 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2494360C20C225F6005A1E62 /* LeaderboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardController.swift; sourceTree = "<group>"; };
+		723F7130EAE9908C800485AA /* Pods-Quiztory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiztory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quiztory/Pods-Quiztory.debug.xcconfig"; sourceTree = "<group>"; };
+		9A49A2A184EF544FFF73AED9 /* Pods_Quiztory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiztory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472A82E20C35FAD003180B5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F4989FBF20C4D18E00C8B5ED /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BFC83120C18AF00018390F /* QuestionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionList.swift; sourceTree = "<group>"; };
+		F4BFC83320C1C60B0018390F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BFC83720C1C6E20018390F /* HighscoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249435F020BF9382005A1E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4989FC020C4D18E00C8B5ED /* SwiftyJSON.framework in Frameworks */,
+				F472A82F20C35FAD003180B5 /* GameKit.framework in Frameworks */,
+				F4BFC83420C1C60B0018390F /* Alamofire.framework in Frameworks */,
+				78DC2E68FC00F4E3ACA9ED06 /* Pods_Quiztory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249435EA20BF9382005A1E62 = {
+			isa = PBXGroup;
+			children = (
+				249435F520BF9382005A1E62 /* Quiztory */,
+				249435F420BF9382005A1E62 /* Products */,
+				41E9A8A1096A832BE9FC7EFF /* Pods */,
+				59A9D44C311677FA3D067A6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		249435F420BF9382005A1E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249435F320BF9382005A1E62 /* Quiztory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249435F520BF9382005A1E62 /* Quiztory */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFC83720C1C6E20018390F /* HighscoreController.swift */,
+				249435F620BF9382005A1E62 /* AppDelegate.swift */,
+				2494360A20C0EDE2005A1E62 /* QuizViewController.swift */,
+				249435F820BF9382005A1E62 /* ViewController.swift */,
+				249435FA20BF9382005A1E62 /* Main.storyboard */,
+				2494360C20C225F6005A1E62 /* LeaderboardController.swift */,
+				F4BFC83120C18AF00018390F /* QuestionList.swift */,
+				249435FD20BF9383005A1E62 /* Assets.xcassets */,
+				249435FF20BF9383005A1E62 /* LaunchScreen.storyboard */,
+				2494360220BF9383005A1E62 /* Info.plist */,
+			);
+			path = Quiztory;
+			sourceTree = "<group>";
+		};
+		41E9A8A1096A832BE9FC7EFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				723F7130EAE9908C800485AA /* Pods-Quiztory.debug.xcconfig */,
+				1ED4799A6C3F31457E232199 /* Pods-Quiztory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59A9D44C311677FA3D067A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4989FBF20C4D18E00C8B5ED /* SwiftyJSON.framework */,
+				F472A82E20C35FAD003180B5 /* GameKit.framework */,
+				F4BFC83320C1C60B0018390F /* Alamofire.framework */,
+				9A49A2A184EF544FFF73AED9 /* Pods_Quiztory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		249435F220BF9382005A1E62 /* Quiztory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2494360520BF9383005A1E62 /* Build configuration list for PBXNativeTarget "Quiztory" */;
+			buildPhases = (
+				1CF6C700850EB061759ACD48 /* [CP] Check Pods Manifest.lock */,
+				249435EF20BF9382005A1E62 /* Sources */,
+				249435F020BF9382005A1E62 /* Frameworks */,
+				249435F120BF9382005A1E62 /* Resources */,
+				F20246C7297A280BAC7CA2C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiztory;
+			productName = Quiztory;
+			productReference = 249435F320BF9382005A1E62 /* Quiztory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		249435EB20BF9382005A1E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Carspotter Daily";
+				TargetAttributes = {
+					249435F220BF9382005A1E62 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 249435EE20BF9382005A1E62 /* Build configuration list for PBXProject "Quiztory" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 249435EA20BF9382005A1E62;
+			productRefGroup = 249435F420BF9382005A1E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				249435F220BF9382005A1E62 /* Quiztory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249435F120BF9382005A1E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494360120BF9383005A1E62 /* LaunchScreen.storyboard in Resources */,
+				249435FE20BF9383005A1E62 /* Assets.xcassets in Resources */,
+				249435FC20BF9382005A1E62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF6C700850EB061759ACD48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quiztory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20246C7297A280BAC7CA2C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quiztory/Pods-Quiztory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quiztory/Pods-Quiztory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249435EF20BF9382005A1E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494360B20C0EDE2005A1E62 /* QuizViewController.swift in Sources */,
+				F4BFC83820C1C6E20018390F /* HighscoreController.swift in Sources */,
+				F4BFC83220C18AF00018390F /* QuestionList.swift in Sources */,
+				2494360D20C225F6005A1E62 /* LeaderboardController.swift in Sources */,
+				249435F920BF9382005A1E62 /* ViewController.swift in Sources */,
+				249435F720BF9382005A1E62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		249435FA20BF9382005A1E62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249435FB20BF9382005A1E62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		249435FF20BF9383005A1E62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2494360020BF9383005A1E62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2494360320BF9383005A1E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2494360420BF9383005A1E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2494360620BF9383005A1E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723F7130EAE9908C800485AA /* Pods-Quiztory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6GVZ4RFU3;
+				INFOPLIST_FILE = Quiztory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carspotter.Quiztory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2494360720BF9383005A1E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED4799A6C3F31457E232199 /* Pods-Quiztory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6GVZ4RFU3;
+				INFOPLIST_FILE = Quiztory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carspotter.Quiztory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249435EE20BF9382005A1E62 /* Build configuration list for PBXProject "Quiztory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2494360320BF9383005A1E62 /* Debug */,
+				2494360420BF9383005A1E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2494360520BF9383005A1E62 /* Build configuration list for PBXNativeTarget "Quiztory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2494360620BF9383005A1E62 /* Debug */,
+				2494360720BF9383005A1E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 249435EB20BF9382005A1E62 /* Project object */;
+}
